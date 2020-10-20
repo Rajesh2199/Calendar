@@ -22,7 +22,7 @@ $(document).ready(function() {
     })
     
     // function to save the notes.
-    $(i).click(saveNote);
+    $("i").click(saveNote);
 
     function saveNote(){
         for (i = 0; i<9; i++){
@@ -31,11 +31,11 @@ $(document).ready(function() {
             localStorage.setItem(time, note);
         }
     }
-
+    // function to show save notes.
     function showNote (){
         for (i = 0; i<9; i++){
-            
+            var notes = localStorage.getItem(time)
             var time = $(".hour").eq(i).data("hour");
-            localStorage.setItem(time, note);
+            $("textarea").eq(i).text(notes)   
         }
     }
