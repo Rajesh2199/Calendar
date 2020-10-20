@@ -35,6 +35,7 @@ https://rajesh2199.github.io/Calendar-Scheduler/.
 
 
 ## Screenshot
-<img width="1863" alt="Screen Shot 2020-10-20 at 2 33 58 AM" src="https://user-images.githubusercontent.com/61152071/96561440-d133a700-127c-11eb-92e9-244096203559.png">
+<img width="1612" alt="Screen Shot 2020-10-20 at 10 53 43 AM" src="https://user-images.githubusercontent.com/61152071/96618811-a8ce9b80-12c2-11eb-9916-a73e5c600ea7.png">
+
 
 
