@@ -23,6 +23,8 @@ $(document).ready(function() {
     
     // function to save the notes.
     $("i").click(saveNote);
+    // calling showNote function will show all the save items when the browser loads.
+    showNote();
 
     function saveNote(){
         for (i = 0; i<9; i++){
@@ -34,8 +36,8 @@ $(document).ready(function() {
     // function to show save notes.
     function showNote (){
         for (i = 0; i<9; i++){
-            var notes = localStorage.getItem(time)
             var time = $(".hour").eq(i).data("hour");
-            $("textarea").eq(i).text(notes)   
+            var notes = localStorage.getItem(time)
+            $("textarea").eq(i).text(notes);   
         }
     }
