@@ -6,7 +6,7 @@ $(document).ready(function() {
     var currentDayOfWeek = moment().format("dddd");
     var currentInfo = currentDayOfWeek + ", " + currentDay;
     $("#currentDay").text(currentInfo);
-    $("#currentTime").text(currentTime);
+    $("#time").text(currentTime);
     var currentHour = moment().hours();
 
     // for loop for iterating through all hours to declare past , present and future.
