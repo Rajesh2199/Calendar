@@ -31,3 +31,11 @@ $(document).ready(function() {
             localStorage.setItem(time, note);
         }
     }
+
+    function showNote (){
+        for (i = 0; i<9; i++){
+            
+            var time = $(".hour").eq(i).data("hour");
+            localStorage.setItem(time, note);
+        }
+    }
