@@ -21,3 +21,13 @@ $(document).ready(function() {
     }
     })
     
+    // function to save the notes.
+    $(i).click(saveNote);
+
+    function saveNote(){
+        for (i = 0; i<9; i++){
+            var note = $("textarea").eq(i).val();
+            var time = $(".hour").eq(i).data("hour");
+            localStorage.setItem(time, note);
+        }
+    }
